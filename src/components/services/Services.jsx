@@ -15,23 +15,23 @@ const services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
           </ul>
@@ -44,23 +44,23 @@ const services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
           </ul>
@@ -73,23 +73,23 @@ const services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
-              <BiCheck className='sevice__list-icon' />
+              <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
           </ul>
