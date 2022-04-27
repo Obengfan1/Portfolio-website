@@ -2,6 +2,8 @@ import React from 'react'
 import './about.css'
 import Sit from '../../asserts/sittingpic.jpg'
 import {FaAward} from 'react-icons/fa'
+import {MdAppSettingsAlt} from 'react-icons/md'
+import {FiUsers} from 'react-icons/fi'
 
 
 const about = () => {
@@ -26,17 +28,22 @@ const about = () => {
             </article>
 
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <FiUsers className='about__icon'/>
+              <h5>Clients</h5>
+              <small>10+ Clients worldwide</small>
             </article>
 
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <MdAppSettingsAlt className='about__icon'/>
+              <h5>Projects</h5>
+              <small>4+ fully functional Web Apps</small>
             </article>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolorum, mollitia culpa eum quia voluptatem! Exercitationem sunt commodi, voluptas rem iusto recusandae. Neque error blanditiis, est labore dolore repellendus odio.
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Lets Talk</a>
 
         </div>
       </div>
