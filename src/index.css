@@ -23,7 +23,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 /*  */
 html{
@@ -52,7 +52,7 @@ h1{
 }
 section{
   margin-top: 8rem;
-  height: 100vh;
+
 }
 section > h2,
 section > h5{
@@ -97,7 +97,7 @@ img {
   object-fit: cover;
 }
 /* -----------------------media queries(medium)-----------------  */
-@media screen and (max-width:1024) {
+@media screen and (max-width:1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -107,9 +107,9 @@ img {
   }
 }
 /* -----------------------media queries(small)-----------------  */
-@media screen and (max-width:820) {
+@media screen and (max-width:600px) {
   .container {
-    width: var(--container-width-ms);
+    width: var(--container-width-sm);
   }
   section > h2{
     margin-bottom: 2rem;
