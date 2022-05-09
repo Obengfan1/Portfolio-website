@@ -1,14 +1,14 @@
 import React from 'react'
 import './portfolio.css'
 import Capy from '../../asserts/Capyrent.jpg'
-import Todi from '../../asserts/todi_meta_image.png'
+import Todi from '../../asserts/todi.jpg'
 
 
 
 const portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My React Work</h5>
+      <h5>My Projects</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         <article className='portfolio__item'>
@@ -16,9 +16,9 @@ const portfolio = () => {
             <img src={Capy} alt="Capyrent" />
 
           </div>
-            <h3>This is a portfolio item titile</h3>
+            <h3> CapyRent--Capybara for a day</h3>
             <a href="https://github.com/iwonochka/CapyRent" className='btn'>Github</a>
-            <a href="https://airbnb-iwonochka.herokuapp.com/" className='btn'>CapyRent</a>
+            <a href="https://airbnb-iwonochka.herokuapp.com/" className='btn btn-primary'>CapyRent</a>
 
 
         </article>
@@ -27,9 +27,9 @@ const portfolio = () => {
             <img src={Todi} alt="" />
 
           </div>
-            <h3>This is a portfolio item titile</h3>
+            <h3>Todi ---For Kid frendly Circle</h3>
             <a href="https://github.com/iwonochka/todi" className='btn'>Github</a>
-            <a href="https://www.todi.club/home" className='btn'>Todi</a>
+            <a href="https://www.todi.club/home" className='btn btn-primary'>Todi</a>
 
 
         </article>
