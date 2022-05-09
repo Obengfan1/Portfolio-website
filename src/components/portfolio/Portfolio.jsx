@@ -17,8 +17,11 @@ const portfolio = () => {
 
           </div>
             <h3> CapyRent--Capybara for a day</h3>
+            <div className="portfolio__item-cta">
+
             <a href="https://github.com/iwonochka/CapyRent" className='btn'>Github</a>
             <a href="https://airbnb-iwonochka.herokuapp.com/" className='btn btn-primary'>CapyRent</a>
+            </div>
 
 
         </article>
@@ -28,8 +31,11 @@ const portfolio = () => {
 
           </div>
             <h3>Todi ---For Kid frendly Circle</h3>
+            <div className="portfolio__item-cta">
+
             <a href="https://github.com/iwonochka/todi" className='btn'>Github</a>
             <a href="https://www.todi.club/home" className='btn btn-primary'>Todi</a>
+            </div>
 
 
         </article>
