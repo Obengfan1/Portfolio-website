@@ -1,9 +1,24 @@
-import React from 'react'
+import React from 'react';
 import './contact.css'
 import {BsWhatsapp} from 'react-icons/bs'
 import {SiGmail} from 'react-icons/si'
+import emailjs from 'emailjs-com'
+import {useRef} from 'react'
 
 const contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bls070g', 'template_0fs9a2m', form.current, '1NpGNrWC9SgRX9hAn')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -26,7 +41,7 @@ const contact = () => {
 
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Full Name' required />
           <input type="email" name='email'placeholder='Enter Your Email' required />
           <textarea name="message"  rows="7" placeholder='Your Message'></textarea>
