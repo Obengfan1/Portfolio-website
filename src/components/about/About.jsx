@@ -40,7 +40,8 @@ const about = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolorum, mollitia culpa eum quia voluptatem! Exercitationem sunt commodi, voluptas rem iusto recusandae. Neque error blanditiis, est labore dolore repellendus odio.
+          I am Frank Obeng, a Software Engineer based in Berlin. My experience includes helping with architectural design, working with various technologies on the backend, and frontend technologies, and working with React-Redux Component libraries, just to mention a few. I am most proficient with ruby on rails and React-redux. I am self-motivated, self-taught and believe learning is the best way of adding value to ones' self.
+
           </p>
 
           <a href="#contact" className='btn btn-primary'>Lets Talk</a>
