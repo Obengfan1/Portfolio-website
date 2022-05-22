@@ -3,9 +3,9 @@ import './contact.css'
 import {BsWhatsapp} from 'react-icons/bs'
 import {SiGmail} from 'react-icons/si'
 import emailjs from 'emailjs-com'
-import {useRef} from 'react'
+import useRef from 'react'
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -53,4 +53,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
