@@ -3,7 +3,7 @@ import './contact.css'
 import {BsWhatsapp} from 'react-icons/bs'
 import {SiGmail} from 'react-icons/si'
 import emailjs from 'emailjs-com'
-import useRef from 'react'
+import {useRef} from 'react'
 
 const Contact = () => {
   const form = useRef();
